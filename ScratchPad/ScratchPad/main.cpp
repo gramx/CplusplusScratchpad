@@ -5,7 +5,12 @@ using namespace std;
 
 int main()
 {
-	cout << "Simple string in C++" << endl;
+	int integerValue;
+	cout << "Type in an int." << endl;
+	cin >> integerValue;
+
+	cout << "Value: " << integerValue << endl;
+
 	system("PAUSE");
 
 	return 0;
